@@ -1,0 +1,200 @@
+<html>
+    <head>
+        <title>מסעדת אלחננו</title> 
+        <link rel="stylesheet" href="css/stylesheet.css" type="text/css"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link rel="icon" href="img/icon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400&display=swap" rel="stylesheet">
+        <meta charset="UTF8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="imgbg">
+            <div class="menu">
+                <div class="mobile-container">
+                    <div class="topnav">
+                        <a href="#home" class="active">elchanano</a>
+                        <div id="myLinks">
+                            <a href="#menus">תפריט</a>
+                            <a href="#about-back">אודות</a>
+                            <a href="events.html">אירועים</a>
+                            <a href="#wrapper">צור קשר</a>
+                        </div>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="logo">
+                <img src="img/simple-house-logo.png">
+                </div>
+
+                <div class="nav">
+                    <ul class="ul">
+                        <li class="li"><a href="#menus">תפריט</a></li>
+                        <li class="li"><a href="#about-back">אודות</a></li>
+                        <li class="li"><a href="events.html">אירועים</a></li>
+                        <li class="li"><a href="#wrapper">צור קשר</a></li>
+                    </ul>
+                </div>
+                <div class="tel">
+                    <a href="tel:089741978">08-9741978</a>
+                </div>  
+            </div>
+        </div> 
+
+        <div id="menus" class="menus">
+            <img id="img1" src="img/flex-menu.png" width="330" height="70">
+
+            <div class="flex-container">
+                
+                <a href= "menu-pdf/drinking-desserts.pdf" target="blank">
+                    <div class="box" id="box1">
+                        <span>
+                            <h3 class="titlebg" >קינוחים ושתיה</h3>
+                        </span>
+                    </div>
+                </a>
+
+                <a href="menu-pdf/main-dishes.pdf" target="blank">
+                    <div class="box" id="box2">
+                        <span>
+                            <h3 class="titlebg" >מנות עיקריות</h3>
+                        </span> 
+                    </div>
+                </a>
+
+                 <a href="menu-pdf/starters.pdf" target="blank">
+                    <div class="box" id="box4">
+                        <span>
+                            <h3 class="titlebg">מנות ראשונות</h3>
+                        </span>
+                    </div>
+                </a>
+
+                <a href="menu-pdf/salads.pdf" target="blank">
+                    <div class="box" id="box3">
+                        <span>
+                            <h3 class="titlebg" >סלטים</h3>
+                        </span>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+
+        <div id="about-back" class="about-back">
+            <div class="about-img">
+                <video  width="100%" height="100%"  loop="loop" autoplay muted>
+                    <source src="img/video_about.mp4" type="video/mp4" >
+                </video> 
+            </div>
+
+
+            <div class="about-text">
+                <div class="about-title">
+                    <h2>אודות</h2>
+                </div>
+                    <p> 
+                        במרכז הארץ בלב העיר מודיעין
+                        <br>
+                        <br>
+                        שוכנת "מסעדת אלחננו" מסעדה יוקרתית
+                        שמשלבת בין השפע והמסורת הקולינרית
+                        לבין היוקרה והאיכות שהפכו לסימן ההיכר של מסעדת אלחננו
+                        <br>
+                        <br>
+                        הבילוי במתחם המסעדה 
+                        מאפשר לסועדים להתנתק מהמולת השגרה ולהנות מאוכל על רמה
+                    </p>
+             </div>
+        </div>
+
+
+        <div class="contact_us">
+            <div class="title-contact">
+                <h1>דרכי התקשרות</h1>
+            </div>
+            <!-- google maps  -->
+            <div class="map">
+                <iframe src="https://did.li/HokTY" width="90%" height="270px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="style-contact" >
+                <div class="contact-add">
+                    <h3>יוסף 15 מודיעין 08-9741978</h3>
+                </div>
+                <div class="contact-add">
+                    <h3>:שעות פתיחה</h3>
+                </div>
+                <div class="contact-add">
+                    <h4>ראשון-חמישי 10:00-23:00</h4>
+                </div>
+                <div class="contact-add">
+                    <h4>שישי ושבת אירועים בלבד</h4>
+                </div>
+                <div class="contact-add">
+                    <h5>להתראות</h5>
+                </div>
+            </div>   
+            <div id="wrapper" class="wrapper">
+                <div class="contact-form">
+                    <div class="input-fields">
+                        <form action="send.php" method="get" name="thisform" onsubmit="return validate()">
+                            <input type="text" name="fname" class="input" placeholder="שם מלא" required>
+                            <input type="email" name="mail" class="input" placeholder="אמייל" required>
+                            <input type="text" name="tel" class="input" placeholder="טלפון">
+                            <input type="text" name="subject" class="input" placeholder="נושא הפניה" required>
+                            <input type="checkbox" id="pirsum" name="pirsum" value="yes"><br>
+                            <label class="pirsum-mass" for="pirsum">תשלחו לי תוכן פירסומי</label>
+                    </div>
+                    <div class="msg">
+                            <textarea name="massage" placeholder="הודעה"></textarea>
+                            <input type="submit" class="btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    <p class="links"> <a href= "mailto:elchanan.sa@gmail.com" sabjeckt="הגעתי%20מאתר%20אלחננו%20בקשר%20לבניית %20אתרים"target="blank"> eli@gmail.com עיצוב ופיתוח אתרים </a> | elchanano <a href="https://showtheway.io/to/31.887187,35.007954?name=%D7%99%D7%95%D7%A1%D7%A3%2015">נווט אל יוסף 15 מודיעין </a> | <a href="tel:089741978 ">מסעדה - 08-9741978 </a>| כל הזכויות שמורות ל </p>
+    </body>
+</html>
+
+    <script>
+        function validate(){
+            var mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+            var t = document.forms["thisform"]["fname"].value;
+            var m =  document.forms["thisform"]["mail"].value;
+            var b = document.forms["thisform"]["subject"].value;
+
+                if (t.length < 2){
+                    alert("שם פרטי חייב להכיל לפחות 2 תווים");
+                    return false;
+                }
+           
+                if (!m.match(mailformat)){
+                    alert("המייל לא תקין");
+                    return false;
+                }
+                
+                 if (b.length < 3){
+                    alert("ההודעה חייבת להכיל נושא, לפחות 3 תווים");
+                    return false;
+                }
+           
+            }
+    </script>
+    <script>
+        function myFunction() 
+        {
+            var x = document.getElementById("myLinks");
+
+            if (x.style.display === "block"){
+                x.style.display = "none";
+            }
+            else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+

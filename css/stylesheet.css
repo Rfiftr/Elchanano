@@ -1,0 +1,463 @@
+*{
+    font-family: Assistant;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+}
+.mobile-container{
+    display: none;
+}
+
+.imgbg{
+    background-image: url("../img/silde1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 721px;
+    margin: 0px 0px 30px 0px;
+}
+
+.menu{
+    background-color: rgba(93, 86, 86,0.7);
+    text-align: center;
+    padding: 10px;
+    height: 55px; 
+}
+
+.ul{
+     padding-bottom: 20px;
+}
+
+.li{
+    display: inline;
+    margin: 20px; 
+}
+
+.li a{
+    font-size: 22px;
+    color: white;
+}
+
+.logo{
+    width: 25%;
+    float: right;
+}
+
+.tel{
+    width: 25%;
+    padding: 10px;
+}
+
+.tel a {
+    text-decoration: none;
+    font-size: 30px; 
+    color: white;
+    float: left;
+}
+
+.logo img{
+    float: right;
+    width: 250px;
+    height: 60px;
+
+}
+.nav{
+    width: 50%;
+    float: right;
+}
+
+    
+.flex-container{
+    display: flex;
+    height: 40%;
+    margin: 1px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menus{
+    background: #353131;
+    width: 100%;
+    height: 500%;
+}
+
+#img1{
+    display: block;
+    margin: auto;
+    padding: 80px 0px 20px 0px;
+}
+
+.box{
+    width: 220px;
+    height: 195px;
+    margin: 1%;
+    text-align: center;
+    border-radius: 2px; 
+    font-size: 25px;
+}
+
+#box1{
+    background-image: url("../img/box1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.6;
+    transition: all .4s ease-out;
+    text-align: center;
+    margin: 6px;
+    padding: 5px;
+}
+
+#box2{
+    background-image: url("../img/box2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.6;
+    transition: all .4s ease-out; 
+    margin: 6px;
+    padding: 5px;
+}
+
+#box3{
+    background-image: url("../img/box3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.6;
+    transition: all .4s ease-out; 
+    margin: 6px;
+    padding: 5px;
+}
+
+#box4{
+    background-image: url("../img/box4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.6;
+    transition: all .4s ease-out; 
+    margin: 6px;
+    padding: 5px;
+}
+
+#box1:hover{
+    opacity: 0.8; 
+    font-size: 30px;
+    transform: scale(1.1);
+}
+
+#box2:hover{
+    opacity: 0.8; 
+    font-size: 30px;
+    transform: scale(1.1);
+}
+
+#box3:hover{
+    opacity: 0.8; 
+    font-size: 30px;
+    transform: scale(1.1);
+}
+
+#box4:hover{
+    opacity: 0.8; 
+    font-size: 30px;
+    transform: scale(1.1);
+}
+
+.titlebg{
+    background-color: rgba(110,111,109,0.5);
+}
+
+.titlebg{
+    color: black;
+}
+
+.about-back{
+    display: flex;
+    justify-content: center;
+    background: white;
+    width: 100%;
+    height: 525%;
+    margin: 30px 0px 30px 0px;
+}
+
+.about-img{
+    margin: 0px 40px 0px 0px;
+}
+
+.about-text{
+    background: grey;
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 30px;
+}
+
+.about-title{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+/*עיצוב לדף של אירועים*/
+
+.img-events{
+    display: block;
+    margin: auto;
+    margin: 0px 0px 5px 0px;
+    padding: 0px 0px 0px 0px; 
+}
+
+.event-pass{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.text-events{
+    text-align: center;
+    font-size: 30px;
+}
+
+.img-text-events{
+    display: flex;
+    height: 20%;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.flex-events-gallery{
+    display: flex;
+    justify-content: center;
+    height: 200%;
+    margin: 10px;
+}
+
+#padd-gallery{
+    margin: 5px;
+    padding: 5px;
+    background: gray;
+    border-radius: 25px;
+}
+
+.links-events{
+    padding: 120px 0px 0px 0px
+}
+
+/*סוף עיצוב אירועים*/
+
+
+.contact_us{
+    text-align: center;
+    background: goldenrod;
+    width: 100%;
+    height: 686px
+}
+
+.title-contact{
+    padding: 15px; 
+}
+
+.style-contact{
+    padding: 40px 0px 0px 0px;
+    width: 50%;
+    
+    float: right;
+}
+
+
+
+
+
+
+.nisuy{
+    background-color: #353131;
+    height: 3000px;
+    width: 60000px;
+
+}
+
+
+
+
+
+
+
+
+/*עיצוב של הטופס*/
+body{
+    height: 100px;
+
+}
+
+.wrapper{
+    width: 50%;
+    padding: 0 20px;
+}
+
+.contact-form{
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 34px 0px 0px 200px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px(black)
+}
+
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+    width: 48%;
+}
+
+.input-fields input,
+.msg textarea{
+    margin: 1.7px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    width: 100%;
+}
+
+.msg textarea{
+    height: 170px;
+}
+
+::-webkit-input-placeholder{
+    color: white;   
+}
+
+::-moz-input-placeholder{
+    color: white;
+}
+
+::-ms-webkit-input-placeholder{
+    color: white;
+}
+
+.btn{
+    background: grey;
+    text-align: center;
+    padding: 10px 40px 10px 40px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 5px;
+    color: #fff;    
+    text-transform: uppercase;   
+}
+/*סוף עיצוב טופס*/
+
+.links{
+    background:black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 0px;
+}
+.links a{
+    color: white
+}
+.links a:hover{
+    color: grey;
+}
+
+/*עיצוב לגודל של פלאפון*/
+@media screen and (max-width: 600px){
+    .contact-form{
+       flex-direction: column;
+       padding: 34px 0px 0px 20px;
+    }
+    .msg textarea{
+        height: 80px
+    }
+    .input-fields{
+        width: 100%
+    }
+    .contact_us{
+        height: 120%
+    }
+    .logo{
+        display: none;
+    }
+
+    .tel{
+        display: none;
+    }
+    .menu{
+        background-image: url("../img/silde1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 712px;
+    }
+    .menus{
+        width: 100%;
+        height: 1100%;
+    }
+    .contact_us{
+        text-align: center;
+        background: goldenrod;
+        width: 100%;
+        height: 800px
+    }
+    .about-img{
+        display: none;
+    }
+    .about-back{
+        width: 100%;
+        height: 500%;
+    }
+    .nav{
+        display: none;
+    }
+    .ul{
+        display: none;
+    }
+
+    .links{
+        padding: 15px;
+        margin-top: 0px;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .mobile-container {
+        display: inherit;
+    }
+
+    .topnav {
+        background-color: #333;
+        position: relative;
+    }
+
+    .topnav #myLinks {
+        display: none;
+    }
+
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        font-size: 20px;
+        display: block;
+    }
+
+    .topnav a.icon {
+        background: black;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 18px;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+}
